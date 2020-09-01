@@ -1,0 +1,104 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-v17-latin-regular.woff') format('woff')
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/raleway-v17-latin-700.woff2') format('woff2'),
+       url('../fonts/raleway-v17-latin-700.woff') format('woff');
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/raleway-v17-latin-regular.woff2') format('woff2'),
+       url('../fonts/raleway-v17-latin-regular.woff') format('woff');
+}
+
+/* MAIN-CODES */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  line-height: 30px;
+  color: #fff;
+  background-color: #181F2B;
+}
+.container {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.logo-img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header-contaier {
+  max-width: 1320px;
+  padding: 0 20px;
+}
+.site-header {
+  margin-top: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-link {
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.site-nav-link {
+  font-family: "Raleway", "Arial", sans-serif;
+  text-decoration: none;
+  /* padding: 5px 12px; */
+  margin-right: 8px;
+  color: #fff
+}
