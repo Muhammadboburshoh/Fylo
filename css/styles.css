@@ -57,7 +57,7 @@ body {
   max-width: 100%;
   height: auto;
 }
-.logo-img {
+.edit-img {
   display: block;
 }
 .visually-hidden {
@@ -96,9 +96,124 @@ body {
 }
 
 .site-nav-link {
+  font-size: 12px;
+  line-height: 14px;
   font-family: "Raleway", "Arial", sans-serif;
   text-decoration: none;
   /* padding: 5px 12px; */
   margin-right: 8px;
   color: #fff
 }
+
+/* INTRO  */
+
+.intro-page {
+  margin-top: 48px;
+}
+
+.site-intro-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.intro-heading {
+  margin: 0;
+  padding: 0;
+  margin-top: 33px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Raleway", "Arial", sans-serif;
+}
+
+.intro-text {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.blue-button {
+  display: inline-block;
+  border: none;
+  padding: 16px 81px;
+  border-radius: 24px;
+  background-color: #63E1D9;
+  background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+
+
+/* ORDER */
+
+.site-main {
+  margin-top: 120px;
+}
+.orders-list {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.order-list-iteam {
+  margin-bottom: 80px;
+}
+
+.order-list-iteam::before {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80px;
+  height: 80px;
+  content: "";
+  display: block;
+}
+
+.order-header {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.order-text {
+  margin: 0;
+}
+
+.first-img::before {
+  background-image: url(../img/feature-everywhere.png);
+}
+
+.second-img::before {
+  background-image: url(../img/feature-security.png);
+}
+
+.third-img::before {
+  background-image: url(../img/feature-collab.png);
+}
+
+.fourth-img::before {
+  background-image: url(../img/feature-types.png);
+}
+
+/* site main  */
+
+.site-productivity {
+  margin-top: 160px;
+}
+
+.site
